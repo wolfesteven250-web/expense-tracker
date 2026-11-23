@@ -163,7 +163,7 @@ function App() {
       <div className="side-label">WORKSPACE</div>
       <button className="side-link active"><LayoutDashboard size={18}/> Overview</button>
       <button className="side-link" onClick={() => setShowCategories(true)}><Tags size={18}/> Categories</button>
-      <div className="sidebar-bottom"><div className="avatar">SW</div><div><strong>My Expense Tracker</strong><small>Personal workspace</small></div></div>
+
     </aside>
 
     <main className="main-content">
